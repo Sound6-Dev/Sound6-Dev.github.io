@@ -1,0 +1,75 @@
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  margin: 0; 
+  padding: 0; 
+  background-color: #fdfdfd; 
+  color: #333;
+} 
+
+header {
+   background-color: greenyellow; 
+   color: goldenrod;
+    display: flex;
+     justify-content: space-between;
+      align-items: center; 
+      padding: 1rem 2rem;
+}
+
+.logo { font-size: 1.5rem; 
+  font-weight: bold;
+} 
+
+nav ul {
+   list-style: none;
+    display: flex;
+     gap: 1.5rem; 
+    } 
+    
+    nav a { 
+      color: goldenrod; 
+      text-decoration: none; 
+      font-weight: 500;
+    }
+
+.hero {
+   background: url('https://via.placeholder.com/1500x500') center/cover no-repeat; 
+   color: white; 
+   text-align: center; 
+   padding: 5rem 2rem;
+}
+
+.cta-button { 
+  background-color: goldenrod; 
+  color: black;
+   padding: 0.75rem 1.5rem; border: none; 
+   text-decoration: none; 
+   font-weight: bold;
+    border-radius: 5px;
+    margin-top: 1rem;
+     display: inline-block;
+    } 
+
+section {
+   padding: 3rem 2rem; 
+}
+
+.service-list, .stylist-profiles {
+   display: flex; 
+   gap: 2rem; flex-wrap: wrap;
+}
+
+.service, .stylist {
+   background-color: white;
+    border: 1px solid silver; 
+     padding: 1rem; 
+     flex: 1 1 calc(33% - 2rem);
+     border-radius: 8px;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+   background-color: black;
+    color: goldenrod; 
+    text-align: center; 
+    padding: 1rem 2rem; 
+  }
