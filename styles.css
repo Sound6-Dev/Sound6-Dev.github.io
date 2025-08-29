@@ -1,0 +1,62 @@
+h1{
+    color: goldenrod;
+}
+
+h2{
+    color: silver;
+}
+
+
+p {
+    color: goldenrod;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+    background-color: rgb(38, 36, 60);
+    color:aquamarine;
+}
+
+header{
+    background-color: rgb(101, 31, 65);
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    
+}
+
+.logo{ image-rendering: pixelated;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul{
+list-style: none;
+display: flex;
+gap: 1.5rem;
+}
+    
+nav a{
+    color: rgb(0, 255, 42);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero{
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 2rem;
+}
+
+
+
