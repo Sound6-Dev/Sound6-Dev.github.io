@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dice Game</title>
+</head>
+<body>
+
+<h1>Dice Game</h1>
+
+<p><strong>Turn:</strong> {{ turn }}</p>
+<p><strong>Point:</strong> {{ point if point else "None" }}</p>
+<p><strong>Game Finished:</strong> {{ "Yes" if finished else "No" }}</p>
+
+<h3>{{ message }}</h3>
+
+<!-- Manual Roll -->
+<form method="POST">
+    <label>Enter dice roll (2–12):</label>
+    <input type="text" name="roll" value="{{ roll_value }}">
+    <button type="submit">Submit Roll</button>
+</form>
+
+<!-- Random Roll -->
+<form method="POST">
+    <button type="submit" name="random_roll">Random Roll</button>
+</form>
+
+<!-- New Game -->
+<form method="POST">
+    <button type="submit" name="new_game">Start New Game</button>
+</form>
+
+</body>
+</html>
